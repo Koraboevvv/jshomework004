@@ -101,7 +101,7 @@ function darkMode(){
 }
 {
     // M-4
-    let kun = 1
+    let kun = 2
     let javob =""
     switch (kun) {
         case 1:
@@ -133,4 +133,84 @@ function darkMode(){
     
 }
 
+{
+    // M-5
+    const a = 10, b = 5, operation = 3;
+    let op =""
+    switch (operation) {
+    case 1:
+        console.log(a + b);
+        op ="сложение"
+        break;
+    case 2:
+        console.log(a - b);
+        op ="вычитание"
+        break;
+    case 3:
+        console.log(a * b);
+        op ="умножение"
+        break;
+    case 4:
+        if (b !== 0) {
+            console.log(a / b);
+            op ="деление"
+        } else {
+            console.log("hattolik: bollu nolga");
+        }
+        break;
+    default:
+        console.log("Hattolik yuz berdi");
+}
+    console.log(op);
 
+}
+
+
+{
+    // M-6
+    const uzun = 5, value = 800;
+    switch (uzun) {
+        case 1:
+            console.log(value * 0.1);
+            break;
+        case 2:
+            console.log(value * 1000);
+            break;
+        case 3:
+            console.log(value * 1);
+            break;
+        case 4:
+            console.log(value * 0.001);
+            break;
+        case 5:
+            console.log(value * 0.01);
+            break;
+        default:
+            console.log("Hatollik: Notogri .");
+    }
+}
+
+
+{
+    // M-7
+    const massa = 4, value = 2;
+    switch (massa) {
+        case 1:
+            console.log(value * 1);
+            break;
+        case 2:
+            console.log(value * 0.000001);
+            break;
+        case 3:
+            console.log(value * 0.001);
+            break;
+        case 4:
+            console.log(value * 1000);
+            break;
+        case 5:
+            console.log(value * 100);
+            break;
+        default:
+            console.log("Hatollik: Notogri.");
+    }
+}
